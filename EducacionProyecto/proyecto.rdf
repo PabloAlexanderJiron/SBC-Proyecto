@@ -1,0 +1,1169 @@
+<rdf:RDF
+    xmlns:voc="http://voc.odw.tw/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:myData="http://example.org/data/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:Distribution rdf:about="http://example.org/data/Distribution">
+    <dcat:accessURL>http://www.w3.org/2001/XMLSchema</dcat:accessURL>
+  </dcat:Distribution>
+  <bibo:Uri rdf:about="http://example.org/data/Uri"/>
+  <voc:dimension rdf:about="http://example.org/data/dimension">
+    <rdfs:range rdf:resource="http://voc.odw.tw/Dimension"/>
+    <rdfs:domain>
+      <voc:EnrolmentData rdf:about="http://example.org/data/EnrolmentData">
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2655</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3495</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >30</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >399</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >380</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >183</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3637</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >309</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >743</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >117</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >779</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >41</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10050</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8160</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >56</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >329</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >236</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3373</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >45</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >806</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10201</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >78</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4280</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7890</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >368</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3585</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4703</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >691</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >261</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3369</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >15251</rdf:value>
+        <dbo:location>
+          <dbo:Province rdf:about="http://example.org/data/Province">
+            <foaf:name xml:lang="es">PICHINCHA</foaf:name>
+            <foaf:name xml:lang="es">MANABÍ</foaf:name>
+            <foaf:name xml:lang="es">CARCHI</foaf:name>
+            <foaf:name xml:lang="es">AZUAY</foaf:name>
+            <dbo:country>
+              <dbo:Country rdf:about="http://example.org/data/Country">
+                <foaf:name>Ecuador</foaf:name>
+              </dbo:Country>
+            </dbo:country>
+            <foaf:name xml:lang="es">PASTAZA</foaf:name>
+            <foaf:name xml:lang="es">LOS RÍOS</foaf:name>
+            <foaf:name xml:lang="es">EL ORO</foaf:name>
+            <foaf:name xml:lang="es">ESMERALDAS</foaf:name>
+            <foaf:name xml:lang="es">TUNGURAHUA</foaf:name>
+            <foaf:name xml:lang="es">SANTA ELENA</foaf:name>
+            <foaf:name xml:lang="es">BOLÍVAR</foaf:name>
+            <foaf:name xml:lang="es">IMBABURA</foaf:name>
+            <foaf:name xml:lang="es">COTOPAXI</foaf:name>
+            <foaf:name xml:lang="es">CHIMBORAZO</foaf:name>
+            <foaf:name xml:lang="es">LOJA</foaf:name>
+            <foaf:name xml:lang="es">GUAYAS</foaf:name>
+          </dbo:Province>
+        </dbo:location>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8927</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >41339</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3600</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >251</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1012</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3408</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1696</rdf:value>
+        <rdfs:range rdf:resource="http://voc.odw.tw/Dimension"/>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >189</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >307</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2856</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2660</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >269</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4413</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >278</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >19372</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1118</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5767</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2439</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >289</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >43</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >97</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6944</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2180</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5409</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7670</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >527</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3287</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >653</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6064</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6455</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14459</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3081</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >187</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >590</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3114</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >40</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4861</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >194</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >328</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2100</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1312</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7850</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >662</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >317</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >274</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3429</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3994</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7588</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1240</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3302</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >613</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >291</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >206</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5433</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >11260</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1809</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >699</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >494</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1416</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8938</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >134</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >147</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1941</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4923</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1534</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5736</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2612</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >36</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >413</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14707</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >422</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14740</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1871</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >435</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >511</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >87</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >637</rdf:value>
+        <voc:dimension>
+          <voc:Dimension rdf:about="http://example.org/data/Dimension">
+            <voc:inDataset>
+              <dcat:DataSet rdf:about="http://example.org/data/Dataset">
+                <dct:title>http://www.w3.org/2001/XMLSchema</dct:title>
+                <dbo:publicationDate>http://www.w3.org/2001/XMLSchema</dbo:publicationDate>
+              </dcat:DataSet>
+            </voc:inDataset>
+            <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+            <rdfs:domain rdf:resource="http://example.org/data/EnrolmentData"/>
+            <rdfs:label>Dimension</rdfs:label>
+            <rdfs:comment>Compuesto por varios factores que contiene una educación superior</rdfs:comment>
+          </voc:Dimension>
+        </voc:dimension>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >324</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2112</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2159</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >241</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4905</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >442</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >439</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >999</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >472</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >15</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >373</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >297</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >204</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1044</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3409</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >12501</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >105</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4157</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >930</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >303</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >312</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >336</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14113</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >208</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >334</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5014</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >118</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >24186</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >21596</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3376</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5732</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9966</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6470</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2988</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >83</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7425</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >516</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1244</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >445</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6996</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >21</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >262</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >617</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10016</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6206</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1723</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >11</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2282</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >20</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3450</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6442</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >969</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >621</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2749</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2222</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5764</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >116</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3060</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >426</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5759</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1466</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >848</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3960</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >98</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9119</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >966</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2059</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >528</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >377</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1470</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >213</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1760</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >93</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >258</rdf:value>
+        <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema"
+        >01/01/2013</dbo:publicationDate>
+        <rdfs:domain>
+          <dbo:EducationalInstitution rdf:about="http://example.org/data/EducacionInstitucional">
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.886.348</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTE</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.571.116</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNESUM</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.505.027</geo:long>
+            <foaf:name xml:lang="es">ESCUELA SUPERIOR POLITÉCNICA AGROPECUARIA DE MANABÍ</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ULVR</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.470.106</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.953368</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNACH</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.197267</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA PARTICULAR DE LOJA</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.511.128</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD TECNOLÓGICA ISRAEL</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTMACHALA</schema:alternateName>
+            <voc:hasData rdf:resource="http://example.org/data/EnrolmentData"/>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.008.911</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.893.276</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD POLITÉCNICA ESTATAL DEL CARCHI</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.234.112</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"FLACSO</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTPL</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ESPOL</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.918.835</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE LAS FUERZAS ARMADAS</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.19982</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UOTAVALO</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE GUAYAQUIL</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD POLITÉCNICA SALESIANA</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >0.358056</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE LAS AMÉRICAS</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DE COTOPAXI</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.616.289</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.745.692</geo:long>
+            <foaf:name xml:lang="es">PONTIFICIA UNIVERSIDAD CATÓLICA DEL ECUADOR</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.469.389</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.642.215</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.012.508</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UIDE</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD NACIONAL DE CHIMBORAZO</foaf:name>
+            <foaf:name xml:lang="es">ESCUELA SUPERIOR POLITÉCNICA DEL LITORAL</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD INTERNACIONAL DEL ECUADOR</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.259.434</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-77.995.956</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.680.975</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UPACÍFICO</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD SAN GREGORIO DE PORTOVIEJO</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.181.411</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-217.571</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ULEAM</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"EPN</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.905.977</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD ESTATAL PENÍNSULA DE SANTA ELENA</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTEG</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.493.758</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.470.892</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCSG</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.063.495</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNL</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UEA</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.485.371</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTB</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.443.692</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.007.037</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DE MACHALA</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.947.597</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.632.887</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.502.591</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.268.957</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTN</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.505.033</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.473.926</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTI</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.183678</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.314536</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UMET</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UPSE</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UFAESPE</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.039.325</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.652.702</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD CATÓLICA DE CUENCA</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-77.734.516</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-214.606</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.493.128</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.246226</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD LAICA VICENTE ROCAFUERTE</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTELVT</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE LOS HEMISFERÍOS</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD TECNOLÓGICA EQUINOCCIAL</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-7.995.844</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNIANDES</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >0.80504</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UDLA</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.877.904</geo:long>
+            <foaf:name xml:lang="es">FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD DEL AZUAY</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.838278</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UPS</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE OTAVALO</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.475.579</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.900.845</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.210189</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.177114</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UEES</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD NACIONAL DE LOJA</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.167.428</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DE BABAHOYO</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.917928</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.801.466</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE CUENCA</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.132.897</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UAE</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNEMI</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCT</schema:alternateName>
+            <foaf:name xml:lang="es">ESCUELA POLITÉCNICA NACIONAL</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD REGIONAL AUTÓNOMA DE LOS ANDES</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.198799</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.965.083</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD CATÓLICA SANTIAGO DE GUAYAQUIL</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"USGP</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.233.232</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >0.973657</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCACUE</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.111.467</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.182.946</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD TECNOLÓGICA INDOAMÉRICA</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCE</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA LUIS VARGAS TORRES DE ESMERALDAS</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.044.259</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD INTERNACIONAL SEK ECUADOR</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UEB</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD IBEROAMERICANA</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UISRAEL</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.181.364</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD TECNOLÓGICA EMPRESARIAL DE GUAYAQUIL</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD ESTATAL AMAZÓNICA</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCG</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.200436</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UG</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.148.198</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.210187</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-3.986.703</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"USFQ</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTEQ</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD DEL PACÍFICO</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DE AMBATO</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.161.163</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.19626</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UCUENCA</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-216.628</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTC</schema:alternateName>
+            <foaf:name xml:lang="es">UNIVERSIDAD LAICA ELOY ALFARO DE MANABÍ</foaf:name>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-288.458</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DE MANABÍ</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"SEK</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.350.149</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.898.979</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.491.532</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE ESPECIALIDADES ESPÍRITU SANTO</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.603.182</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.485.252</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-403.294</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD AGRARIA DEL ECUADOR</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.906.758</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD SAN FRANCISCO DE QUITO</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD CENTRAL DE ECUADOR</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.007.278</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.202318</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.655.911</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD ESTATAL DE BOLÍVAR</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD TÉCNICA DEL NORTE</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.455.945</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ECOTEC</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ESPOCH</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.665.176</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UHEMISFERÍOS</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >0.236393</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.198.937</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"PUCE</schema:alternateName>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.239.784</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-3.245.468</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.492.213</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.603.795</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD ECOTEC</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.890.756</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-2.149.103</geo:lat>
+            <foaf:name xml:lang="es">UNIVERSIDAD DE ESPECIALIDADES TURÍSTICAS</foaf:name>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTA</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.639.291</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD CASA GRANDE</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.202.548</geo:long>
+            <dbo:province rdf:resource="http://example.org/data/Province"/>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"ESPAM</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UPEC</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-7.843.576</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.111683</geo:lat>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UAZUAY</schema:alternateName>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UTM</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.488.691</geo:long>
+            <foaf:name xml:lang="es">UNIVERSIDAD ESTATAL DE MILAGRO</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-78.989.268</geo:long>
+            <schema:alternateName rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >"UNIBE</schema:alternateName>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-7.900.129</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-80.564.382</geo:long>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-0.196656</geo:lat>
+            <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-1.297.526</geo:lat>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-7.985.684</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.865.909</geo:long>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-79.917.963</geo:long>
+            <foaf:name xml:lang="es">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</foaf:name>
+            <foaf:name xml:lang="es">UNIVERSIDAD METROPOLITANA</foaf:name>
+            <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema"
+            >-7.989.443</geo:long>
+          </dbo:EducationalInstitution>
+        </rdfs:domain>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3327</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >480</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >14900</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >32</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9235</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >737</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2056</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >938</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9370</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >119</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2092</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >128</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3189</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2782</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >50</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >525</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8969</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7958</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6598</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6402</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8190</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >283</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >581</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >605</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >30403</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >337</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >91</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10009</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5113</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1993</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >462</rdf:value>
+        <rdfs:label>Enrolment Data</rdfs:label>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >38</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5341</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3929</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8558</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3268</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >148</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9396</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >82</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7982</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >271</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >704</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5726</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >55</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3509</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >562</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >5101</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >316</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >244</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >152</rdf:value>
+        <rdfs:comment>Apunta a las inscripciones que puede a ver dentro de una institución superior</rdfs:comment>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6992</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >53</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4279</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >62</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6297</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6150</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >99</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >248</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >16</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2718</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2493</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >8311</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >387</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >974</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1619</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1652</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >34</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1434</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2183</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7361</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >149</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >598</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >276</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4947</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >51</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >611</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9859</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6255</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2960</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2478</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1124</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >372</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >58</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4083</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >972</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4259</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >398</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >688</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >546</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >195</rdf:value>
+        <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema"
+        >01/01/2012</dbo:publicationDate>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >778</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4547</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >136</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >37</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1079</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >327</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4545</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >661</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10568</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >273</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4695</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >26235</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >41666</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3394</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >27836</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2957</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6294</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >243</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >7585</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >444</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >570</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9030</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >378</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >181</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >375</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >18</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >707</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >783</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >306</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >133</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1147</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4331</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >231</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >839</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4964</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1636</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >6</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2582</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >870</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >323</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3422</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >285</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2115</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1559</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >294</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >4074</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >166</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >179</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3158</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >212</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1897</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1780</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >18675</rdf:value>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >92</rdf:value>
+      </voc:EnrolmentData>
+    </rdfs:domain>
+    <rdfs:label>dimension</rdfs:label>
+    <rdfs:comment>Dimension de enrolment data</rdfs:comment>
+  </voc:dimension>
+  <voc:inDataset rdf:about="http://example.org/data/inDataset">
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:domain rdf:resource="http://example.org/data/Dimension"/>
+    <rdfs:label>inDataset</rdfs:label>
+    <rdfs:comment>Contenido del Dataset</rdfs:comment>
+  </voc:inDataset>
+  <voc:SchoolPolitecnic rdf:about="http://example.org/data/SchoolPolitecnic">
+    <rdfs:subClassOf rdf:resource="http://example.org/data/EducacionInstitucional"/>
+    <rdfs:label>School Politecnic</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/data/EducacionInstitucional"/>
+    <rdfs:comment>Escuelas Politécnicas de Educación superior</rdfs:comment>
+  </voc:SchoolPolitecnic>
+  <voc:hasData rdf:about="http://example.org/data/hasData">
+    <rdfs:range rdf:resource="http://voc.odw.tw/EnrolmentData"/>
+    <rdfs:domain rdf:resource="http://example.org/data/EducacionInstitucional"/>
+    <rdfs:label>Has Data</rdfs:label>
+    <rdfs:comment>Obtención de Data contenido</rdfs:comment>
+  </voc:hasData>
+  <skos:Concept rdf:about="http://example.org/data/Concept">
+    <owl:equivalentClass>
+      <voc:EducationFields rdf:about="http://example.org/data/EducationFields">
+        <foaf:name xml:lang="es">CIENICAS NATURALES MATEMÁTICA Y ESTADÍSTICA</foaf:name>
+        <foaf:name xml:lang="es">CIENCIAS NATURALES MATEMÁTICA Y ESTADÍSTICA</foaf:name>
+        <foaf:name xml:lang="es">ARTES Y HUMANIDADES</foaf:name>
+        <foaf:name xml:lang="es">INGENIERÍA INDUSTRIA Y CONSTRUCCIÓN</foaf:name>
+        <rdfs:label>Education Fields</rdfs:label>
+        <foaf:name xml:lang="es">ADMINISTRACIÓN DE EMPRESAS Y DERECHO</foaf:name>
+        <rdfs:comment>Campos de educación o Areas que ofrece cada universidad</rdfs:comment>
+        <foaf:name xml:lang="es">SERVICIOS</foaf:name>
+        <foaf:name xml:lang="es">TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN</foaf:name>
+        <foaf:name xml:lang="es">CIENCIAS SOCIALES PERIODISMO E INFORMACIÓN</foaf:name>
+        <rdfs:subClassOf rdf:resource="http://example.org/data/Dimension"/>
+        <foaf:name xml:lang="es">INGENIRÍA INDUSTRIA Y CONSTRUCCIÓN</foaf:name>
+        <foaf:name xml:lang="es">EDUCACIÓN</foaf:name>
+        <foaf:name xml:lang="es">AGRICULTURA SILVICULTURA PESCA Y VETERINARIA</foaf:name>
+        <foaf:name xml:lang="es">SALUD Y BIENESTAR</foaf:name>
+      </voc:EducationFields>
+    </owl:equivalentClass>
+  </skos:Concept>
+  <dbo:LevelOfEducation rdf:about="http://example.org/data/LevelOfEducation">
+    <rdfs:subClassOf rdf:resource="http://example.org/data/Dimension"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema"
+    >PREGRADO</foaf:name>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema"
+    >POSTGRADO</foaf:name>
+  </dbo:LevelOfEducation>
+  <schema:Gender rdf:about="http://example.org/data/Gender">
+    <rdfs:subClassOf rdf:resource="http://example.org/data/Dimension"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema"
+    >MUJERES"</foaf:name>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema"
+    >HOMBRES"</foaf:name>
+  </schema:Gender>
+  <dbo:University rdf:about="http://example.org/data/University">
+    <rdfs:subClassOf rdf:resource="http://example.org/data/EducacionInstitucional"/>
+  </dbo:University>
+</rdf:RDF>
